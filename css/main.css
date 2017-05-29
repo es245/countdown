@@ -43,6 +43,10 @@ html, body{
   font-size: 35px;
 }
 
+.days, .hours, .minutes, .seconds{
+
+}
+
 .day, .hour, .minute, .second{
   font-size: 125px;
 }
@@ -92,7 +96,8 @@ html, body{
 
 @media only screen and (max-width: 1000px){
   .days, .hours, .minutes, .seconds{
-    display: block;
+    display: inline-block;
+    width: 49%;
   }
 
   .counter{
